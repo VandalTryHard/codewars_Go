@@ -1,2 +1,2 @@
-# codewars_Golang-aka-Go-
-solution codewars.com Golang (aka Go)
+# codewars_Go-aka-Golang-
+solution codewars.com Go (aka Golang)
