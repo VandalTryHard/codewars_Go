@@ -1,0 +1,47 @@
+// 8 kyu
+// Count the Monkeys!
+// You take your son to the forest to see the monkeys. You know that there are a certain number there (n), but
+// your son is too young to just appreciate the full number, he has to start counting them from 1.
+
+// As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up
+// to and including that number, but excluding zero.
+
+// For example:
+
+// monkeyCount(10) // --> []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+// monkeyCount(1) // --> []int{1}
+
+// Algorithms
+// Arrays
+// Fundamentals
+// Ranges
+// Basic Language Features
+// Lists
+// Data Structures
+
+// package kata
+
+// func monkeyCount(n int) []int {
+//     list_monkey := []int{}
+//     for i := 1; i <= n; i++ {
+// 		  list_monkey = append(list_monkey, i)
+// 	  }
+// 	  return list_monkey
+// }
+
+// How this works
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println(monkeyCount(10))
+}
+
+func monkeyCount(n int) []int {
+	list_monkey := []int{}
+	for i := 1; i <= n; i++ {
+		list_monkey = append(list_monkey, i)
+	}
+	return list_monkey
+}
