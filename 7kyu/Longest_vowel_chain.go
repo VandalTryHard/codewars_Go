@@ -14,6 +14,29 @@
 // Fundamentals
 // Strings
 
+// package kata
+
+// import "sort"
+
+// func Solve(s string) int {
+// 	check := "aeiou"
+// 	vowel_string := ""
+// 	vowel_list := []string{}
+
+// 	for _, i := range s {
+// 		if i == rune(check[0]) || i == rune(check[1]) || i == rune(check[2]) || i == rune(check[3]) || i == rune(check[4]) {
+// 			vowel_string += string(i)
+// 		} else {
+// 			vowel_list = append(vowel_list, vowel_string)
+// 			vowel_string = ""
+// 		}
+// 	}
+// 	sort.Slice(vowel_list, func(i, j int) bool {
+// 		return len(vowel_list[i]) > len(vowel_list[j])
+// 	})
+// 	return len(vowel_list[0])
+// }
+
 // How this works
 package main
 
